@@ -1,0 +1,21 @@
+.brightness {
+    filter: brightness(50%);
+}
+
+.courses-button {
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+@media screen and (max-width:992px) {
+    .company-header {
+        display: none;
+    }
+
+    .course-sections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
