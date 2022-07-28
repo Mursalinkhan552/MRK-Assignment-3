@@ -8,6 +8,20 @@
     margin-bottom: 5%;
 }
 
+.course-sections {
+    display: flex;
+}
+
+.company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
 @media screen and (max-width:992px) {
     .company-header {
